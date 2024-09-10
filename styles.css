@@ -1,0 +1,50 @@
+/* Estiliza o corpo do documento */
+body {
+    background-color: #1D4221; /* Cor de fundo verde escuro */
+    color: #fff; /* Cor do texto branca */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte personalizada */
+    display: flex; /* Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Alinhamento horizontal centralizado */
+    align-items: center; /* Alinhamento vertical centralizado */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estiliza os botões */
+button {
+    background-color: #64A712; /* Cor de fundo verde claro */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Remove bordas padrão */
+    padding: 10px 20px; /* Adiciona espaço interno */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte personalizada */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #4a8514; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estiliza os passos */
+.passo {
+    display: none; /* Esconde todos os passos por padrão */
+}
+
+.passo.ativo {
+    display: block; /* Mostra o passo ativo */
+}
+
+/* Estiliza o elemento principal */
+main {
+    text-align: center; /* Alinha o texto ao centro */
+    max-width: 90%; /* Limita a largura máxima */
+}
+
+/* Estiliza as imagens */
+img {
+    max-width: 90%; /* Limita a largura máxima das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
